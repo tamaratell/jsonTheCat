@@ -11,7 +11,7 @@ const getBreedDescription = (breed, cb) => {
     }
 
     catch (error) {
-      return cb(error, null);
+      return cb('Breed not found :(', null);
     }
   });
 };
